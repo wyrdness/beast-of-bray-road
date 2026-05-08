@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/beast-of-bray-road",
     "maintainers": [
       {
@@ -16,111 +16,283 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "beast-of-bray-road",
     "name": "Beast of Bray Road",
-    "aliases": [],
-    "category": "CRYPTID_/_SHAPESHIFTER",
-    "subcategory": "Canine/Lupine Bipedal Entity",
+    "aliases": [
+      { "name": "Bray Road Beast", "language": "English", "region": "Wisconsin, USA" },
+      { "name": "Wisconsin Werewolf", "language": "English", "region": "Wisconsin, USA" },
+      { "name": "Manwolf", "language": "English (Linda Godfrey term)", "region": "American Midwest" }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Canine / lupine bipedal humanoid",
     "tags": [
-      "folklore",
-      "mythology"
+      "cryptid",
+      "werewolf",
+      "dogman",
+      "bipedal",
+      "wisconsin",
+      "midwest",
+      "modern-folklore",
+      "20th-century"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Beast of Bray Road** is a cryptid creature reported primarily from rural Walworth County, Wisconsin, particularly along Bray Road near the town of Elkhorn.",
-      "full": "The **Beast of Bray Road** is a cryptid creature reported primarily from rural Walworth County, Wisconsin, particularly along Bray Road near the town of Elkhorn. Since the late 1980s, witnesses have described encounters with a large, bipedal, wolf-like or bear-like creature that exhibits characteristics of both animals and humans. The Beast is often compared to werewolf legends and represents one of North America's most prominent \\\"dogman\\\" or \\\"wolfman\\\" sightings. Unlike traditional European werewolf folklore involving transformation from human to wolf, the Beast of Bray Road appears to be a consistently animal-like creature capable of bipedal locomotion. Standing 6 to 7 feet tall when upright, covered in dark fur, with a wolf-like or dog-like head, powerful limbs, and glowing eyes, the creature has been seen by dozens of witnesses over more than three decades. Most sightings occur at night on rural roads, often with the creature standing on two legs, crouching over roadkill, or running alongside or in front of vehicles. The modern wave of sightings began in the late 1980s when several witnesses reported encounters along Bray Road, a rural county road southeast of Elkhorn. Local journalist Linda Godfrey investigated and published reports beginning in 1991, bringing national attention to the phenomenon. Her reporting transformed scattered local rumors into a coherent narrative that attracted cryptozoology researchers, paranormal investigators, and curious tourists. The Beast of Bray Road has become Wisconsin's most famous cryptid, spawning books, documentaries, a feature film, and an annual tourism boost to Walworth County. Skeptics attribute sightings to misidentified bears, large dogs, or hoaxes, while believers suggest the creature could be an unknown canid species, a relic population of prehistoric mammals, or even a supernatural entity connected to Native American shapeshifter traditions. Regardless of its true nature, the Beast has secured a permanent place in Wisconsin folklore and American cryptozoology."
+      "summary": "A wolf-like, sometimes-bipedal cryptid reported near Elkhorn, Walworth County, Wisconsin, beginning in the late 1980s. Investigated and popularized by reporter Linda Godfrey, who later argued it is part of a wider 'manwolf' or 'dogman' phenomenon across the Midwest.",
+      "full": "The Beast of Bray Road is a cryptid reported in and around Elkhorn, Walworth County, Wisconsin, with most sightings clustering in the late 1980s and early 1990s. Witnesses describe a 6- to 7-foot-tall wolf-headed creature, covered in fur, with glowing red or yellow-orange eyes, sometimes seen standing or running on its hind legs and sometimes on all fours. Reports of contact with vehicles include claw marks on doors. Reporter Linda Godfrey, then writing for the Walworth County Week, was assigned to cover the story and produced a series of articles that became the 1992–1993 'werewolf of Elkhorn' coverage and her 2003 book The Beast of Bray Road. Godfrey, initially skeptical, became a long-time investigator of related 'manwolf' reports across Wisconsin, Michigan and the Midwest. Skeptics attribute the reports to misidentified gray wolves, large feral dogs, mange-affected bears, and a folklore feedback loop reinforced by a 2005 Asylum horror film and other media."
     },
     "etymology": {
-      "origin": "American (Wisconsin), modern era (1980s-present)",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for Bray Road, a rural road near Elkhorn in Walworth County, Wisconsin, where multiple sightings clustered in the late 1980s and early 1990s.",
+      "meaning": "Literally, the beast of Bray Road; 'Bray' is the family name commemorated by the road, not a description of the creature.",
+      "first_use": "Around 1991–1992 in the Walworth County Week newspaper coverage by Linda Godfrey"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID_/_SHAPESHIFTER",
-      "type": "Canine/Lupine Bipedal Entity",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Canine / lupine humanoid",
+      "subtype": "Bipedal werewolf-like cryptid (dogman / manwolf)",
+      "variant": "Upper Midwest"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "michigan-dogman", "name": "Michigan Dogman", "relationship": "similar", "description": "Bipedal wolf-headed cryptid of northern Michigan" },
+      { "id": "bigfoot", "name": "Bigfoot", "relationship": "related", "description": "Some Beast of Bray Road reports overlap descriptively with Bigfoot accounts" },
+      { "id": "werewolf", "name": "Werewolf", "relationship": "similar", "description": "Folkloric shapeshifter that the cryptid superficially resembles" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.8, "max": 2.1, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown", "black", "grey"],
+      "features": [
+        { "feature": "Wolf-like head", "description": "Elongated muzzle, pointed ears, prominent canine teeth", "frequency": "always" },
+        { "feature": "Bipedal/quadrupedal locomotion", "description": "Reported moving on two legs and on all fours; transitions between gaits in some accounts", "frequency": "common" },
+        { "feature": "Fur-covered humanoid body", "description": "Muscular, broad-chested humanoid torso covered in coarse fur", "frequency": "always" },
+        { "feature": "Glowing eyes", "description": "Red, orange, or yellow eyeshine reported in night encounters", "frequency": "common" },
+        { "feature": "Long claws", "description": "Reports describe long claws capable of leaving marks on vehicles", "frequency": "occasional" }
+      ],
+      "morphology": "A heavily-built, fur-covered humanoid with a canid head and reportedly digitigrade or plantigrade hind limbs. Witnesses are inconsistent on whether the creature is fundamentally a wolf or a primate-like form."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Bipedal running", "description": "Said to move at high speed on two legs as well as on four", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Aggressive vehicle interaction", "description": "Reports of chasing, lunging at, or scratching vehicles", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rural farmland", "cornfields", "woodlots", "country roads"],
+      "patterns": [
+        "Encounters cluster on rural roads at night",
+        "Reports include kneeling postures over roadkill",
+        "Geographic clustering in Walworth County, Wisconsin"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "American (Wisconsin), modern era (1980s-present)",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports center on rural Walworth County, Wisconsin (the Elkhorn / Lake Geneva area), with related 'manwolf' or 'dogman' reports across Wisconsin and the broader Upper Midwest.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Upper Midwest", "Wisconsin", "Walworth County"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Bray Road, Elkhorn",
+        "location": {
+          "description": "Rural road outside Elkhorn, Walworth County, Wisconsin",
+          "country": "United States",
+          "region": "Wisconsin",
+          "coordinates": { "latitude": 42.6731, "longitude": -88.5443 }
+        },
+        "peak_period": "1989–1992",
+        "notes": "Cluster of foundational sightings, including reports from teenagers and farmworkers"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1936-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Earlier 1936 Jefferson, Wisconsin watchman account often retroactively associated with the cryptid"
+      },
+      "peak_activity_periods": [
+        { "period": "1989–1992", "description": "Original cluster of Bray Road sightings near Elkhorn" },
+        { "period": "1992–1993", "description": "Walworth County Week coverage by Linda Godfrey" },
+        { "period": "2003–present", "description": "Godfrey's books and continuing 'manwolf' reports across the Midwest" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "American (Wisconsin), modern era (1980s-present)",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Modern American cryptid tradition; sometimes connected to older Wisconsin and Indigenous werewolf-like folklore.",
+      "earliest_accounts": "A 1936 incident at the St. Coletta School in Jefferson, Wisconsin — in which a night watchman reported a wolf-like creature digging on what he believed to be an Indian burial mound — is sometimes retroactively associated with the cryptid. The named Beast of Bray Road tradition begins with reports near Elkhorn in 1989–1992.",
+      "folklore_connections": "Linked to the broader 'dogman' / 'manwolf' phenomenon of the Upper Midwest, including the Michigan Dogman and similar reports across Wisconsin."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1936-01-01", "event": "Night watchman at St. Coletta School in Jefferson, Wisconsin reports a wolf-like creature digging on a mound — later associated with the cryptid", "significance": "Earliest event commonly attached to the Beast of Bray Road tradition", "source": "Godfrey, L. (2003), The Beast of Bray Road" },
+      { "date": "1989-10-01", "event": "Cluster of Bray Road sightings begins near Elkhorn, Wisconsin (late 1980s, exact dates uncertain)", "significance": "Birth of the modern phenomenon", "source": "Walworth County Week reporting (Godfrey, 1991–1992)" },
+      { "date": "1991-12-29", "event": "Linda Godfrey assigned by the Walworth County Week to investigate the local 'werewolf' reports; her articles are published over the following months", "significance": "Brings the cryptid into print and into national cryptid media", "source": "Walworth County Week" },
+      { "date": "2003-01-01", "event": "Linda Godfrey publishes The Beast of Bray Road: Tailing Wisconsin's Werewolf", "significance": "Foundational book on the phenomenon", "source": "Godfrey, L. (2003)" },
+      { "date": "2005-01-01", "event": "The Asylum releases the direct-to-DVD horror film The Beast of Bray Road", "significance": "Cements the cryptid in pop culture", "source": "The Asylum (2005)" }
+    ],
+    "modern_era": "Sightings continue to be reported across Wisconsin, including Spring Prairie (2018) and Lyons (2020). Linda Godfrey expanded her investigation to a wider 'manwolf' or 'dogman' phenomenon spanning the Midwest and published several follow-up books before her death in 2022. The Beast of Bray Road has become a major regional tourism touchstone in southern Wisconsin."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 30,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1936", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "beast-of-bray-road-sighting-1936-st-coletta",
+        "name": "St. Coletta School watchman incident",
+        "date": { "value": "1936-01-01", "precision": "approximate" },
+        "location": {
+          "description": "St. Coletta School for Exceptional Children, Jefferson, Wisconsin",
+          "country": "United States",
+          "region": "Wisconsin",
+          "locality": "Jefferson County",
+          "coordinates": { "latitude": 43.0072, "longitude": -88.8073, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Night watchman"], "credibility_factors": ["Early date predates the modern cryptid framing"] },
+        "description": "On two consecutive nights in 1936, a night watchman at St. Coletta School reportedly saw a wolf-like creature digging on what he understood to be an Indian burial mound on the school grounds.",
+        "credibility": { "rating": "low", "factors": ["Single witness", "Account preserved indirectly via Godfrey's later research"], "notes": "Earliest event commonly associated with the cryptid; primarily known through later retelling." },
+        "sources": ["Godfrey, L. (2003), The Beast of Bray Road"],
+        "featured": true
+      },
+      {
+        "id": "beast-of-bray-road-sighting-1991-godfrey-investigation",
+        "name": "Walworth County Week investigation begins",
+        "date": { "value": "1991-12-29", "precision": "approximate" },
+        "location": {
+          "description": "Bray Road and surrounding rural Elkhorn, Walworth County",
+          "country": "United States",
+          "region": "Wisconsin",
+          "locality": "Walworth County",
+          "coordinates": { "latitude": 42.6731, "longitude": -88.5443, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Multiple area residents interviewed by Linda Godfrey"], "credibility_factors": ["Multiple independent witnesses", "Reported to local journalist"] },
+        "description": "Reporter Linda Godfrey, assigned by the Walworth County Week to investigate rumors of a werewolf-like creature on Bray Road, interviewed multiple residents who described encounters with a wolf-headed humanoid creature. Witnesses reported the creature on roadsides at night, sometimes kneeling over roadkill. Some described claw marks left on their vehicles after close encounters.",
+        "credibility": { "rating": "medium", "factors": ["Multiple independent witnesses", "Investigated by a reporter who became an expert on the phenomenon"], "notes": "The investigation that defined the cryptid in print." },
+        "sources": ["Walworth County Week (1991–1992)", "Godfrey, L. (2003), The Beast of Bray Road"],
+        "featured": true
+      },
+      {
+        "id": "beast-of-bray-road-sighting-2018-spring-prairie",
+        "name": "Spring Prairie sighting",
+        "date": { "value": "2018-02-01", "precision": "approximate" },
+        "location": {
+          "description": "Spring Prairie, Walworth County, Wisconsin",
+          "country": "United States",
+          "region": "Wisconsin",
+          "locality": "Walworth County",
+          "coordinates": { "latitude": 42.6464, "longitude": -88.3445, "precision": "approximate" }
+        },
+        "description": "A witness in Spring Prairie reported seeing a large, hair-covered upright creature on a rural road, consistent with longstanding Bray Road descriptions.",
+        "credibility": { "rating": "low", "factors": ["Single witness", "Reported via Wisconsin cryptid media"], "notes": "Recent re-emergence of the report pattern in Walworth County." },
+        "sources": ["Wikipedia: Beast of Bray Road"],
+        "featured": false
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "beast-of-bray-road-evidence-vehicle-claws",
+        "type": "vehicle damage",
+        "name": "Reported claw marks on vehicles",
+        "date": "1989-1992",
+        "description": "Witnesses reported finding long claw marks on the doors and trunks of their vehicles after encounters on or near Bray Road.",
+        "status": "unverified",
+        "analysis": "No vehicle was forensically examined by independent investigators; reports survive in witness testimony and Godfrey's reporting.",
+        "source": "Godfrey, L. (2003), The Beast of Bray Road"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Manwolf / dogman cryptid",
+        "description": "Linda Godfrey's hypothesis that the Beast of Bray Road is part of a broader, possibly paranormal 'manwolf' phenomenon spanning the Upper Midwest.",
+        "proponents": ["Linda Godfrey"],
+        "evidence_cited": ["Pattern of similar reports across Wisconsin and Michigan", "Witness consistency on bipedal-canid morphology"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Misidentified canid or bear",
+        "description": "Witnesses likely misidentified gray wolves, coyote-wolf hybrids, large feral dogs (Great Pyrenees, Newfoundland), or mange-affected bears, especially in low light.",
+        "proponents": ["Wisconsin Department of Natural Resources biologists", "Mainstream skeptics"],
+        "evidence_cited": ["Recovery of wolves in southern Wisconsin", "Documented cases of mange-affected bears appearing 'humanoid'"]
+      },
+      {
+        "name": "Folklore feedback loop",
+        "description": "Once the 'werewolf of Elkhorn' story entered local newspapers and pop culture, similar reports proliferated, reinforced by the 2005 Asylum film and ongoing cryptid media.",
+        "proponents": ["Folklorists of contemporary legend"],
+        "evidence_cited": ["Sharp rise in reports following 1992 newspaper coverage", "Geographic spread coincident with media coverage"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Wisconsin contemporary cryptid folklore",
+        "Upper Midwest 'dogman' / 'manwolf' tradition"
+      ],
+      "stories": [
+        "Bray Road encounters (late 1980s–early 1990s)",
+        "St. Coletta School watchman (1936)"
+      ],
+      "beliefs": "Locally treated as a real and dangerous animal by some witnesses; regionally embraced as a folkloric figure tied to Wisconsin identity."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Linda S. Godfrey, The Beast of Bray Road: Tailing Wisconsin's Werewolf (2003)",
+        "Linda S. Godfrey, Hunting the American Werewolf (2006)",
+        "Linda S. Godfrey, Real Wolfmen (2012)"
+      ],
+      "film_tv": [
+        "The Beast of Bray Road (2005, The Asylum)",
+        "Monsters and Mysteries in America (2013–2014, Destination America)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Wisconsin cryptid tourism in Walworth County and the Lake Geneva area"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Linda S. Godfrey", "affiliation": "Independent journalist and author", "contribution": "Foundational reporting and four decades of investigation into the Beast of Bray Road and related Midwestern manwolf reports", "period": "1991–2022" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing reports are collected by independent cryptid investigators in Wisconsin and the Upper Midwest; no academic research program targets the cryptid."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wiki-bray-road", "type": "website", "title": "Beast of Bray Road", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Beast_of_Bray_Road", "accessed": "2026-05-07" },
+    { "id": "godfrey-2003", "type": "book", "title": "The Beast of Bray Road: Tailing Wisconsin's Werewolf", "authors": ["Linda S. Godfrey"], "publication": "Trails Books", "date": "2003", "isbn": "978-1931599108" },
+    { "id": "godfrey-2006", "type": "book", "title": "Hunting the American Werewolf", "authors": ["Linda S. Godfrey"], "publication": "Trails Books", "date": "2006", "isbn": "978-1931599931" },
+    { "id": "milwaukee-mag-bray", "type": "article", "title": "The Legend of the Beast of Bray Road", "publication": "Milwaukee Magazine", "url": "https://www.milwaukeemag.com/the-legend-of-the-beast-of-bray-road/", "accessed": "2026-05-07" },
+    { "id": "loa-bray-road", "type": "website", "title": "The Beast of Bray Road, Wisconsin", "publication": "Legends of America", "url": "https://www.legendsofamerica.com/beast-of-bray-road/", "accessed": "2026-05-07" }
+  ]
 }
